@@ -27,8 +27,9 @@ namespace UDPEchoServer
 
             //Creates an IPEndPoint to record the IP Address and port number of the sender.  
             IPAddress ip = IPAddress.Parse("127.0.0.1");
+             //IPEndPoint object will allow us to read datagrams sent from another source.
             IPEndPoint RemoteIpEndPoint = new IPEndPoint(ip, 7000);
-            //IPEndPoint object will allow us to read datagrams sent from another source.
+           
             
             try
             {
