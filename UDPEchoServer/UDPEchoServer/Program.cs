@@ -62,6 +62,7 @@ namespace UDPEchoServer
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
+                
             }
         }
         
